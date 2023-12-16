@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap');
+.athira{
+    height: 350px;
+    width: 100%;
+    border-radius: 2px;
+
+}
+
+.na:hover{
+color:rgb(99, 189, 227) ;
+}
+.r1{
+    background-image: url(./images/port2.3.avif);
+    
+    background-size: cover;
+}
+.bor{
+    height: 370px;
+    width: 285px;
+    border: 9px solid rgb(99, 189, 227) ;
+    position: relative;
+}
+.bor2{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    bottom: 180px;
+    
+    left:-17px ;
+}
+button{
+    background:linear-gradient(to right,rgb(99, 189, 227),rgb(132, 0, 255)) ;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    width: 200px;
+    border: rgba(0, 0, 0, 0);
+}
+.hed2{
+    font-family: 'Raleway', sans-serif;
+}
+.hed1{
+    font-family: 'Abril Fatface', serif;
+    font-size: 55px;
+}
+@media(max-width:567px){
+    .b1{
+        margin:5px;
+    }
+    .b2{
+        margin:5px;
+    }
+    .hed1{
+       
+        font-size: 28px;
+        
+    }
+    .r11{
+        text-align: start;
+    }
+    .pic{
+        width: 100%;
+        text-align: start;
+    }
+}
