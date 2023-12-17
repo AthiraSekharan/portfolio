@@ -1,65 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap');
-.athira{
+.aa{
+    color: rgb(99, 189, 227);
+}
+.athira {
     height: 350px;
     width: 100%;
     border-radius: 2px;
 
 }
 
-.na:hover{
-color:rgb(99, 189, 227) ;
+.na:hover {
+    color: rgb(99, 189, 227);
 }
-.r1{
+
+.r1 {
     background-image: url(./images/port2.3.avif);
-    
+
     background-size: cover;
 }
-.bor{
+
+.bor {
     height: 370px;
     width: 285px;
-    border: 9px solid rgb(99, 189, 227) ;
+    border: 9px solid rgb(99, 189, 227);
     position: relative;
 }
-.bor2{
+
+.bor2 {
     height: 200px;
     width: 250px;
     position: absolute;
     bottom: 180px;
-    
-    left:-17px ;
+
+    left: -17px;
 }
-button{
-    background:linear-gradient(to right,rgb(99, 189, 227),rgb(132, 0, 255)) ;
+
+button {
+    background: linear-gradient(to right, rgb(99, 189, 227), rgb(132, 0, 255));
+    color: white;
+    border-radius: 2px;
+
+}
+
+.bn {
+    background: linear-gradient(to right, rgb(99, 189, 227), rgb(132, 0, 255));
     color: white;
     border-radius: 2px;
     padding: 5px;
     width: 200px;
     border: rgba(0, 0, 0, 0);
 }
-.hed2{
+
+.hed2 {
     font-family: 'Raleway', sans-serif;
 }
-.hed1{
+
+.hed1 {
     font-family: 'Abril Fatface', serif;
     font-size: 55px;
 }
-@media(max-width:567px){
-    .b1{
-        margin:5px;
+
+.row2 {
+    color: rgb(99, 189, 227);
+}
+
+.row22 {
+    color: white;
+}
+
+.lum {
+    height: 250px;
+    width: 350px;
+}
+.lumi{
+    height: 250px;
+    width: 100%;
+}
+.bord{
+    height: 250px;
+    width: 350px;
+    border: 9px solid rgb(99, 189, 227);
+    position: relative;
+}
+.bord2{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    bottom: 71px;
+
+    left: 20px;
+}
+.visit{
+    text-decoration: none;
+    color: white;
+}
+.lo{
+   height: 70px;
+   width: 85px;
+}
+.last{
+        background: linear-gradient(to right, rgba(99, 189, 227, 0.304), rgba(132, 0, 255, 0.381));
+
+}
+.bnt{
+height: 45px;
+width: 50px;
+border-radius: 8px;
+border: rgba(0, 0, 255, 0);
+}
+.send1{
+    color: white;
+    background-color: black;
+}
+.con{
+    height: auto;
+    width: 50px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background: linear-gradient(to right, rgba(99, 189, 227, 0.304), rgba(132, 0, 255, 0.381));
+
+}
+html{
+    overflow-x: hidden;
+}
+
+
+
+@media(max-width:567px) {
+    .b1 {
+        margin: 5px;
     }
-    .b2{
-        margin:5px;
+
+    .b2 {
+        margin: 5px;
     }
-    .hed1{
-       
+
+    .hed1 {
+
         font-size: 28px;
-        
+
     }
-    .r11{
+
+    .r11 {
         text-align: start;
     }
-    .pic{
+
+    .pic {
         width: 100%;
         text-align: start;
     }
+   .c1{
+    width: 100%;
+    padding: 0%;
+   }
+   .bord{
+    width: 100%;
+   }
+   .bord2{
+    width: 100%;
+   }
+   .lum{
+    width: 100%;
+   }
+   .lumi{
+    width: 100%;
+   }
+   .logoss{
+   width: 100%;
+   margin-left: 150px;
+   }
+   .conclu{
+    margin-left:100px;
+    margin-top: 20px;
+   }
 }
