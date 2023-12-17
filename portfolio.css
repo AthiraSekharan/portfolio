@@ -119,9 +119,7 @@ border: rgba(0, 0, 255, 0);
     background: linear-gradient(to right, rgba(99, 189, 227, 0.304), rgba(132, 0, 255, 0.381));
 
 }
-html{
-    overflow-x: hidden;
-}
+
 
 
 
@@ -172,4 +170,13 @@ html{
     margin-left:100px;
     margin-top: 20px;
    }
+   .last{
+    width: 100%;
+   }
+   .visit{
+    font-size:100px;
+   }
+.fullw{
+    overflow-x: hidden;
+}
 }
